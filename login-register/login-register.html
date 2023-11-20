@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Login</title>
+	<link rel="stylesheet" type="text/css" href="login-register.css">
+	<script src="https://kit.fontawesome.com/5f429772cb.js" crossorigin="anonymous"></script>
+	<link rel="icon" href="img/img1.png">
+</head>
+
+<body>
+	<nav class="navbar">
+		<a href="../index.html"><img
+				src="https://media.discordapp.net/attachments/1153306259345379429/1176163795538804766/logo.png?ex=656ddee4&is=655b69e4&hm=fe81f2f55472542bf7d602aa02f5940a012a89695c7d107bbf74deb80f3c9417&=&width=701&height=701"
+				alt="Logo del Gimnasio" style="height:50px;"></a>
+		<a href="../index.html">Inicio</a>
+		<a href="#services">Servicios</a>
+		<a href="./nosotros/P-ginaWebGimnasio/nosotros.html">Nosotros</a>
+		<a href="#contact">Contacto</a>
+		<a href="./login-register/login-register.html">Ingresar</a>
+		<a href="./login-register/login-register.html">Registrarse</a>
+	</nav>
+	<section>
+		<div class="container" id="container">
+			<div class="form-container sign-up-container">
+				<form action="#">
+					<h1>Registrate</h1>
+					<div class="social-container">
+						<a href="#" class="social"><i class="fa-brands fa-facebook-f"></i></a>
+						<a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+						<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+					</div>
+					<span>or use your email for registration</span>
+					<input type="text" placeholder="Name" />
+					<input type="email" placeholder="Email" />
+					<input type="password" placeholder="Password" />
+					<button>Registrar</button>
+				</form>
+			</div>
+			<div class="form-container sign-in-container">
+				<form action="#">
+					<h1>Inicia sesión</h1>
+					<div class="social-container">
+						<a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+						<a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+						<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+					</div>
+					<span>or use your account</span>
+					<input type="email" placeholder="Email" />
+					<input type="password" placeholder="Password" />
+					<a href="#">Forgot your password?</a>
+					<button>Iniciar</button>
+				</form>
+			</div>
+			<div class="overlay-container">
+				<div class="overlay">
+					<div class="overlay-panel overlay-left">
+						<h1>Welcome Back!</h1>
+						<p>To keep connected with us please login with your personal info</p>
+						<button class="ghost" id="signIn">Sign In</button>
+					</div>
+					<div class="overlay-panel overlay-right">
+						<h1>Hello, Friend!</h1>
+						<p>Enter your personal details and start journey with us</p>
+						<button class="ghost" id="signUp">Sign Up</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<script src="login-register.js"></script>
+</body>
+
+</html>

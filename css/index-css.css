@@ -1,0 +1,44 @@
+/*VARIABLES*/
+:root{
+    --first-color: black;
+    --second-color: white;
+    --third-color: rgb(182, 46, 46);
+    --fourth-color: orange;
+    --fifth-color: yellow;
+    --sixth-color: blue;
+    --seventh-color: green;
+    --eighth-color: gray;
+    --ninth-color: purple;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+.navbar {
+    overflow: hidden;
+    background-color: var(--third-color);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.image-section {
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+.image-section img {
+    width: 70%;
+    height: auto;
+}
