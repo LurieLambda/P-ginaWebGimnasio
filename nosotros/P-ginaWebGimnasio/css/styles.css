@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rating {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rating2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.rating3{
+    display: flex;
+    justify-content: space-between;
+}
+
+.star {
+    font-size: 32px;
+    color:  #bbb;
+    transition: color 0.1s;
+    cursor: pointer;
+}
+
+.star1 {
+    font-size: 32px;
+    color:  #bbb;
+    transition: color 0.1s;
+    cursor: pointer;
+}
+
+.star2 {
+    font-size: 32px;
+    color:  #bbb;
+    transition: color 0.1s;
+    cursor: pointer;
+}
+.star:hover,
+.star.checked{
+    color: gold;
+}
+.star1:hover,
+.star1.checked{
+    color: gold;
+}
+
+.star2:hover,
+.star2.checked{
+    color: gold;
+}
