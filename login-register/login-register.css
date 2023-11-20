@@ -282,7 +282,7 @@ footer i {
 footer a {
     color: #3c97bf;
     text-decoration: none;
-========
+}
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
 
@@ -290,16 +290,7 @@ footer a {
 	box-sizing: border-box;
 }
 
-body {
-	background: #f6f5f7;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-	font-family: 'Montserrat', sans-serif;
-	height: 100vh;
-	margin: -20px 0 50px;
-}
+
 h1 {
 	font-weight: bold;
 	margin: 0;
@@ -537,5 +528,4 @@ footer i {
 footer a {
     color: #3c97bf;
     text-decoration: none;
->>>>>>>> 4aa63e464c7bb15315c8d242f4a8c5f2d35168aa:login_gym/css/login.css
 }
